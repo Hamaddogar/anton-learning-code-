@@ -1,0 +1,72 @@
+/* #css-3daction{
+  background-color: red;
+   width: 400px;
+    height: 400px;
+    animation: 5s linear mymove;
+
+}
+@keyframes mymove{
+ from{ background-color: black; width: 500px; height: 500px;}
+  to{ background-color: yellow; width: 1500px; height: 1500px;}
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+#main{
+  display: inline-flex;
+   padding-left:100px ;
+
+}
+
+#div1{
+
+  width: 300px;
+   height: 300px;
+ margin: 20px;
+  background-color: red;
+  animation:  10s linear movealldiv;
+}
+#div2{
+
+    width: 300px;
+     height: 300px;
+ margin: 20px;
+ background-color: yellow;
+ animation:  10s linear movealldiv;
+
+     
+
+  
+  }#div3{
+   
+    width: 300px;
+     height: 300px;
+ margin: 20px;
+ background-color: green;
+ animation:  10s linear movealldiv;
+  
+  } 
+
+
+
+   @keyframes movealldiv{
+ 0%{ transform: skew(90deg); background-color: yellowgreen;}
+   25%{ transform: skew(360deg); background-color: yellowgreen;}
+   50%{ transform: skew(360deg); background-color: yellowgreen;}
+   100%{ transform: skew(360deg); background-color: yellowgreen;}
+
+
+
+
+   }
